@@ -1,4 +1,4 @@
-package tests;
+package tests.ui;
 
 import com.github.javafaker.Faker;
 import config.ConfigHelper;
@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class WrikeUITests extends TestBase {
+public class WrikeUITests extends UiTestBase {
 
     @Test
     @DisplayName("add new project to workspace")

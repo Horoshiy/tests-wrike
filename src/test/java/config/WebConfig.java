@@ -23,12 +23,15 @@ public interface WebConfig extends Config {
     @Key("site.password")
     String sitePassword();
 
-    @Key("page.tournaments")
-    String pageTournaments();
+    @Key("api.token")
+    String apiToken();
 
-    @Key("page.squads")
-    String pageSquads();
+    @Key("api.url")
+    String apiURL();
 
-    @Key("page.phases")
-    String pagePhases();
+    @Key("api.client")
+    String apiClient();
+
+    @Key("api.folder")
+    String apiFolder();
 }

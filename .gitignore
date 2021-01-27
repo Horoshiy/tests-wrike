@@ -6,3 +6,4 @@
 /src/test/resources/prod.properties
 /build/
 /.allure/
+/allure-results/
