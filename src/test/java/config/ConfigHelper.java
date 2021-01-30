@@ -24,6 +24,10 @@ public class ConfigHelper {
         return getWebConfig().webdriverRemote();
     }
 
+    public static String getWebdriverVideo() {
+        return getWebConfig().webdriverVideo();
+    }
+
     public static String getApiToken() {
         return getWebConfig().apiToken();
     }

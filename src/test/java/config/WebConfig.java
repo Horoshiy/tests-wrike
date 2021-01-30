@@ -11,6 +11,9 @@ public interface WebConfig extends Config {
     @Key("webdriver.remote")
     String webdriverRemote();
 
+    @Key("webdriver.video")
+    String webdriverVideo();
+
     @Key("site.login")
     String siteLoginPage();
 
