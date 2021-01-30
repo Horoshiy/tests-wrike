@@ -20,7 +20,7 @@ public class TestBase {
     @BeforeAll
     static void setup() {
         addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
-//        Configuration.remote = ConfigHelper.getWebdriverRemote();
+        Configuration.remote = ConfigHelper.getWebdriverRemote();
         Configuration.startMaximized = true;
     }
 
