@@ -21,7 +21,7 @@ public class UiTestBase extends TestBase {
         String password = ConfigHelper.getSitePassword();
 
         open(url);
-        $(by("data-gdpr", "agree")).click();
+//        $(by("data-gdpr", "agree")).click();
         $("body").shouldHave(text("Wrike"));
         $(by("href", signInUrl)).click();
         $(".login-bottom__text").shouldHave(text("Don't have a Wrike account yet?"));
